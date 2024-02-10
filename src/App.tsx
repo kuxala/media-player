@@ -114,7 +114,7 @@ function App() {
     return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   };
 
-  //progressBarWidth = (currentTime / duration) * 100
+  //progressBarWidth = (currentTime / duration) * 100 es aris progress bar formula
 
   return (
     <BodyDiv>
